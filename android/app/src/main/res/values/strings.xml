@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Firebase_Lesson App</string>
+<string name="facebook_app_id">2238123699700895</string>
+<string name="fb_login_protocol_scheme">fb2238123699700895</string>
+<string name="facebook_client_token">e74d3d15c7763d922fc1a9749d9e1655</string>
+</resources>
