@@ -1,5 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_lesson/Lesson_One/myHomePage.dart';
+import 'package:firebase_lesson/Lesson_Three/Lesson_Three_Homework/addCar.dart';
+import 'package:firebase_lesson/Lesson_Three/Lesson_Three_Homework/carPage.dart';
 import 'package:firebase_lesson/Lesson_Three/add_product.dart';
 import 'package:firebase_lesson/Lesson_Three/fireStoreDatabase.dart';
 import 'package:firebase_lesson/Lesson_Two/Lesson_Two_Homework/googleProfile.dart';
@@ -33,7 +35,7 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:  GetProductPage(),
+      home:  CarPage(),
     );
   }
 }

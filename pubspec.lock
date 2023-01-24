@@ -240,6 +240,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.10.2+1"
+  gradient_floating_button:
+    dependency: "direct main"
+    description:
+      name: gradient_floating_button
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.0.3"
   http:
     dependency: transitive
     description:
@@ -415,6 +422,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "3.2.1"
+  readmore:
+    dependency: "direct main"
+    description:
+      name: readmore
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.2.0"
   sign_in_button:
     dependency: transitive
     description:
