@@ -48,6 +48,7 @@ dependencies:
   cloud_firestore: ^4.3.1
   readmore: ^2.1.0
   gradient_floating_button: ^0.0.3
+  blurrycontainer: ^1.0.2
 
 dev_dependencies:
   flutter_test:

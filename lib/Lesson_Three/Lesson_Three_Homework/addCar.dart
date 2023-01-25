@@ -246,7 +246,7 @@ class _AddCarState extends State<AddCar> {
         ),
         alignmentEnd: Alignment.topRight,
         alignmentBegin: Alignment.bottomLeft,
-        colors: [Colors.blue, Colors.purpleAccent],
+        colors: [Color(0xffFD8165), Color(0xffFD8165)],
       ),
     );
   }

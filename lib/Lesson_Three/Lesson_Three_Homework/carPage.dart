@@ -81,7 +81,7 @@ class _CarPageState extends State<CarPage> {
                                 Container(
                                     margin: EdgeInsets.only(top: 10, right: 15),
                                     child: Text(
-                                      "\$ ${list[index].price.toString()}",
+                                      "\$ ${list[index].price}".toString(),
                                       style: GoogleFonts.adamina(
                                           fontWeight: FontWeight.w700,
                                           color: Colors.white,
@@ -129,8 +129,7 @@ class _CarPageState extends State<CarPage> {
                                     Container(
                                         margin:
                                         EdgeInsets.only(top: 6, left: 5),
-                                        child: Text(
-                                          "${list[index].speed.toString()}",
+                                        child: Text(list[index].speed.toString(),
                                           style: GoogleFonts.adamina(
                                               fontWeight: FontWeight.w700,
                                               color: Colors.white,
@@ -196,8 +195,7 @@ class _CarPageState extends State<CarPage> {
       ),
       floatingActionButton: GradientFloatingButton().withLinearGradient(
         onTap: (){
-          Navigator.push(
-              context, MaterialPageRoute(builder: (_) => const AddCar()));
+          Navigator.of(context).push(MaterialPageRoute(builder: (_)=>AddCar()));
         },
         iconWidget: const Icon(
           Icons.add,
@@ -205,7 +203,8 @@ class _CarPageState extends State<CarPage> {
         ),
         alignmentEnd: Alignment.topRight,
         alignmentBegin: Alignment.bottomLeft,
-        colors: [Colors.blue, Colors.purpleAccent],
+        colors: [Color(0xffFD8165), Color(0xffFD8165)],
+
       ),
     );
   }
