@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+    <key>NSCameraUsageDescription</key>
+        <string>Allowing the access to your camera helps us to show you the media files to upload to Shop app</string>
+        <key>NSMicrophoneUsageDescription</key>
+        <string>This app requires access to the Microphone.</string>
+        <key>NSPhotoLibraryUsageDescription</key>
+        <string>Allowing the access to your photo library helps us to show you the media files to upload to Shop app</string>
     <key>CFBundleURLTypes</key>
     <array>
     	<dict>
